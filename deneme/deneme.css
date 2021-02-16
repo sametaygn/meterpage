@@ -1,0 +1,57 @@
+.kutu{
+    width: 200px;
+    height: auto;
+    border:solid black 2px;
+    border-radius:  5px;
+   /* background-color: rgb(211, 211, 211);*/
+   background-image: radial-gradient(rgb(196, 193, 193),rgb(112, 96, 96));
+    box-shadow: 5px 5px rgb(61, 61, 61);
+}
+.kutu2{
+    margin-left: 15px;
+    margin-right: 15px;
+    width: auto;
+    max-height: 120px;
+ 
+    overflow-y: auto;
+
+    /*background-color: rgb(159, 175, 171);*/
+    background-image:linear-gradient(rgb(196, 193, 193),rgb(51, 46, 46));
+    border: rgb(200, 200, 200);
+    border-style: ridge;
+    border-radius: 5px;
+    
+}
+table {
+   
+    border-collapse: collapse;
+ 
+    width: 100%;
+   
+  }
+  
+  th, td {
+    text-align: left;
+    padding: 0px;
+  }
+  p{
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      font-size: small;
+  }
+  h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+    font-weight: lighter;
+  }
+  h4{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: small;
+    font-weight: lighter;
+  }
+  tr:nth-child(even) {background-color: #f2f2f2;}
